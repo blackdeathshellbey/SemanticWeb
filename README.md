@@ -17,7 +17,7 @@ Fuseki server lunches automatically on memory and the rdf.ttl automatically uplo
 
 We have two APIs in our project, `Google Place API` for getting the reviews of the places, and `OpenCage geocoding API` for obtaining more information regarding the addresses.
 
-All the files and informations are stored in `\data` directory.
+All the files and information are stored in `\data` directory.
 
 # Data Extraction and RDF Conversion Process
 
@@ -41,20 +41,21 @@ Our program includes multiple queries:
 
 7. *City-based Query:* Retrieve all restaurants in a specific city.
 
-`Main` call for executing every thing automatically.
+`Main` call for executing everything automatically.
 
 `Validator` class validates rdf data in our code with a representative shape.
 
 `UserPreferences` class can get the information from user, make and rdf file and upload them to the server. Also can be executed several times.
-<br><br>![Screenshot 2024-01-10 210531.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202024-01-10%20210531.png)
+<br><br>![Screenshot 2024-01-10 210531](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/e196f352-71bc-45bb-986c-7eacc5d12cb9)
 <center>This is the main structure of our classes.</center>
 
-<br>![Screenshot 2024-01-10 224151.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202024-01-10%20224151.png)
+
+<br>![Screenshot 2024-01-10 224151](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/0d464678-e4a0-4666-a1d2-3ece57c31247)
 <center>This is the function in our classes.</center>
 
-<br>![Screenshot 2024-01-10 224359.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202024-01-10%20224359.png)
+<br>![Screenshot 2024-01-10 224359](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/553b46d1-99ce-4756-83b0-0508d7bad262)
 <center>Functions and methods in our Main and Collect code.</center>
 
 
-<br>![Screenshot 2024-01-10 224645.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202024-01-10%20224645.png)
+<br>![Screenshot 2024-01-10 224645](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/c2a7ff77-693a-4440-8210-2f4ceb31c2db)
 <center>Memory insights from profiler about classes that we call.</center>
