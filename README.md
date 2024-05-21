@@ -49,13 +49,11 @@ Our program includes multiple queries:
 <br><br>![Screenshot 2024-01-10 210531](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/e196f352-71bc-45bb-986c-7eacc5d12cb9)
 <center>This is the main structure of our classes.</center>
 
-
 <br>![Screenshot 2024-01-10 224151](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/0d464678-e4a0-4666-a1d2-3ece57c31247)
 <center>This is the function in our classes.</center>
 
 <br>![Screenshot 2024-01-10 224359](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/553b46d1-99ce-4756-83b0-0508d7bad262)
 <center>Functions and methods in our Main and Collect code.</center>
-
 
 <br>![Screenshot 2024-01-10 224645](https://github.com/blackdeathshellbey/SemanticWeb/assets/17174907/c2a7ff77-693a-4440-8210-2f4ceb31c2db)
 <center>Memory insights from profiler about classes that we call.</center>
