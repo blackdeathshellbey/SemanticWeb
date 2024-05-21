@@ -1,0 +1,1388 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+
+<https://www.a2roo-dijon.fr/> a schema:Service ;
+    schema:name "A2ROO" ;
+    schema:url <https://www.a2roo-dijon.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Dijon" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.322047 ;
+        schema:longitude 5.04148
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@a2roo-dijon.fr"
+    ] ;
+    schema:sameAs <https://a2roo.coopcycle.org>,
+        <https://www.facebook.com/a2roo.dijon/>,
+        <https://www.a2roo-dijon.fr/>.
+
+<https://www.beefast.fr/> a schema:Service ;
+    schema:name "Beefast" ;
+    schema:url <https://www.beefast.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Amiens" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 49.894066 ;
+        schema:longitude 2.295753
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@beefast.fr"
+    ] ;
+    schema:sameAs <https://beefast.coopcycle.org>,
+        <https://www.facebook.com/beefast.fr/>,
+        <https://www.beefast.fr/>.
+
+<https://belolivraison.fr> a schema:Service ;
+    schema:name "Belo Livraison" ;
+    schema:url <https://belolivraison.fr> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Concarneau" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.866669 ;
+        schema:longitude -3.91667
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@belolivraison.fr"
+    ] ;
+    schema:sameAs <https://belo.coopcycle.org>,
+        <https://belolivraison.fr>.
+
+<null> a schema:Service ;
+    schema:name "Bicientrega" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Ciudad de México - BiciEntrega" ;
+        schema:addressCountry "mx"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 19.434997 ;
+        schema:longitude -99.150816
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/La-organizaci%C3%B3n-bici-entrega-CDMX-299415760864018/>,
+        <https://www.instagram.com/bicientrega.cdmx/>.
+
+<http://www.biclooo.fr/> a schema:Service ;
+    schema:name "Biclooo" ;
+    schema:url <http://www.biclooo.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Rodez" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 44.352833 ;
+        schema:longitude 2.562013
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "bonjour@biclooo.fr"
+    ] ;
+    schema:sameAs <https://biclooo.coopcycle.org>,
+        <http://www.biclooo.fr/>.
+
+<null> a schema:Service ;
+    schema:name "Bikexpress" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Getafe" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 40.306812 ;
+        schema:longitude -3.732985
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "bikexpressur@gmail.com"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/bikexpress.bullit>,
+        <https://www.instagram.com/bikexpress_ecomensajeria/>.
+
+<https://botxoriders.com/> a schema:Service ;
+    schema:name "Botxoriders" ;
+    schema:url <https://botxoriders.com/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Bilbao" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 43.2627 ;
+        schema:longitude -2.9253
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <https://botxoriders.coopcycle.org>,
+        <https://botxoriders.com/>.
+
+<https://cat-kurierkollektiv.de/> a schema:Service ;
+    schema:name "Cat-Kurierkollektiv" ;
+    schema:url <https://cat-kurierkollektiv.de/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Halle" ;
+        schema:addressCountry "de"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 51.47098707450851 ;
+        schema:longitude 11.963177613669085
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <https://cat.coopcycle.org>,
+        <https://www.facebook.com/Catkurier/>,
+        <https://www.instagram.com/cat_kurierkollektiv/>,
+        <https://cat-kurierkollektiv.de/>.
+
+<null> a schema:Service ;
+    schema:name "Chorlton Bike Deliveries" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Manchester" ;
+        schema:addressCountry "gb"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 53.4447788 ;
+        schema:longitude -2.2790018
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "chorltonbikedeliveries@gmail.com"
+    ] ;
+    schema:sameAs <https://chorlton-bike-deliveries.coopcycle.org>.
+
+<https://about.me/co1cide> a schema:Service ;
+    schema:name "CoinCide" ;
+    schema:url <https://about.me/co1cide> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Saint-Denis" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.9267902 ;
+        schema:longitude 2.330664
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@riders-socialclub.com"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/co1cide/>,
+        <https://about.me/co1cide>.
+
+<null> a schema:Service ;
+    schema:name "Colibri" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Napoli" ;
+        schema:addressCountry "it"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 40.839981 ;
+        schema:longitude 14.25254
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "colibri@cleanap.org"
+    ] ;
+    schema:sameAs <https://colibri.coopcycle.org>.
+
+<http://coliscyclette.fr> a schema:Service ;
+    schema:name "ColisCyclette" ;
+    schema:url <http://coliscyclette.fr> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Carpentras" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 44.0628406 ;
+        schema:longitude 4.9884039
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "serge.carpentras@gmail.com"
+    ] ;
+    schema:sameAs <null>,
+        <https://fr-fr.facebook.com/coliscyclette/>,
+        <http://coliscyclette.fr>.
+
+<http://coop-veliv.fr/> a schema:Service ;
+    schema:name "CoopVeliv" ;
+    schema:url <http://coop-veliv.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Lyon" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 45.7619177 ;
+        schema:longitude 4.8362647
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@coop-veliv.fr"
+    ] ;
+    schema:sameAs <null>,
+        <http://coop-veliv.fr/>.
+
+<https://www.crowberlin.de> a schema:Service ;
+    schema:name "CROW Collective" ;
+    schema:url <https://www.crowberlin.de> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Berlin" ;
+        schema:addressCountry "de"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.500314 ;
+        schema:longitude 13.398481
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@crowberlin.de"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/crowcyclecouriercollective>,
+        <https://www.instagram.com/crowberlin>,
+        <https://www.crowberlin.de>.
+
+<https://cyclome.fr/> a schema:Service ;
+    schema:name "CYCLOME" ;
+    schema:url <https://cyclome.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Clermont-Ferrand" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 45.77721 ;
+        schema:longitude 3.08252
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@cyclome.fr"
+    ] ;
+    schema:sameAs <https://cyclome.coopcycle.org>,
+        <https://www.facebook.com/cyclome.coop>,
+        <https://cyclome.fr/>.
+
+<null> a schema:Service ;
+    schema:name "Les Coursiers Dinannais" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Dinan" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.454021 ;
+        schema:longitude -2.04615
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "lescoursiersdinannais@gmail.com"
+    ] ;
+    schema:sameAs <https://dinan.coopcycle.org>,
+        <https://www.facebook.com/LesCoursiersDinannais/>.
+
+<null> a schema:Service ;
+    schema:name "Dring" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Châtillon" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.799858 ;
+        schema:longitude 2.28574
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "dring@initiative-emploi-92.fr"
+    ] ;
+    schema:sameAs <https://initiative-emploi.coopcycle.org>.
+
+<null> a schema:Service ;
+    schema:name "Envici" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Puebla" ;
+        schema:addressCountry "mx"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 19.04368 ;
+        schema:longitude -98.199043
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "enviciparallevar@gmail.com"
+    ] ;
+    schema:sameAs <https://envici.coopcycle.org>,
+        <https://www.facebook.com/envicientregasymensajeria>.
+
+<http://www.eraman.coop/> a schema:Service ;
+    schema:name "Eraman Repartos Gasteiz" ;
+    schema:url <http://www.eraman.coop/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Vitoria-Gasteiz" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 42.846859 ;
+        schema:longitude -2.67159
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "repartos@eraman.coop"
+    ] ;
+    schema:sameAs <https://eramangasteiz.coopcycle.org>,
+        <http://www.eraman.coop/>.
+
+<https://facttic.org.ar/> a schema:Service ;
+    schema:name "FACTTIC" ;
+    schema:url <https://facttic.org.ar/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Buenos Aires" ;
+        schema:addressCountry "ar"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude -34.603683 ;
+        schema:longitude -58.381557
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "plataformascooperativas@facttic.org.ar"
+    ] ;
+    schema:sameAs <https://demo.coopcycle.org>,
+        <https://www.facebook.com/facttic/>,
+        <https://www.instagram.com/facttic.ar/>,
+        <https://facttic.org.ar/>.
+
+<https://fast-and-curious.fr> a schema:Service ;
+    schema:name "Fast and Curious" ;
+    schema:url <https://fast-and-curious.fr> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Le Havre" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 49.492592 ;
+        schema:longitude 0.1065
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@fast-and-curious.fr"
+    ] ;
+    schema:sameAs <https://fast-and-curious.coopcycle.org>,
+        <https://www.facebook.com/Fast-and-curious-103028378475922>,
+        <https://fast-and-curious.fr>.
+
+<http://www.feelavelo.fr/> a schema:Service ;
+    schema:name "Feel à Vélo" ;
+    schema:url <http://www.feelavelo.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Lorient" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.748252 ;
+        schema:longitude -3.370245
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@feelavelo.fr"
+    ] ;
+    schema:sameAs <https://feelavelo.coopcycle.org>,
+        <http://www.feelavelo.fr/>.
+
+<https://hotlinecouriers.com.au/> a schema:Service ;
+    schema:name "Hotline Couriers" ;
+    schema:url <https://hotlinecouriers.com.au/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Sydney" ;
+        schema:addressCountry "au"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude -33.8735865 ;
+        schema:longitude 151.2066947
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "sam@hotlinecouriers.com.au"
+    ] ;
+    schema:sameAs <https://hotlinecouriers.coopcycle.org>,
+        <https://www.instagram.com/hotlinecouriers/>,
+        <https://hotlinecouriers.com.au/>.
+
+<null> a schema:Service ;
+    schema:name "Huelva Vence" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Huelva" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 37.2621449 ;
+        schema:longitude -6.9453985
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "huelvavence@gmail.com"
+    ] ;
+    schema:sameAs <null>.
+
+<null> a schema:Service ;
+    schema:name "Hull Delivery Coop" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Hull" ;
+        schema:addressCountry "gb"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 53.7675181 ;
+        schema:longitude -0.3319922
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "hulldeliverycoop@gmail.com"
+    ] ;
+    schema:sameAs <https://hull.coopcycle.org>.
+
+<https://khora.berlin/de/> a schema:Service ;
+    schema:name "Khora" ;
+    schema:url <https://khora.berlin/de/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Berlin" ;
+        schema:addressCountry "de"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 52.520007 ;
+        schema:longitude 13.404954
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "service@khora.berlin"
+    ] ;
+    schema:sameAs <https://khora.berlin>,
+        <https://khora.berlin/de/>.
+
+<https://kooglof.fr/> a schema:Service ;
+    schema:name "Kooglof" ;
+    schema:url <https://kooglof.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Strasbourg" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.5833 ;
+        schema:longitude 7.75
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <https://kooglof.coopcycle.org>,
+        <https://www.facebook.com/kooglof/>,
+        <https://www.instagram.com/kooglof_livraison/>,
+        <https://kooglof.fr/>.
+
+<https://lapajaraenbici.com/> a schema:Service ;
+    schema:name "La Pajara" ;
+    schema:url <https://lapajaraenbici.com/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Madrid" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 40.4381311 ;
+        schema:longitude -3.8196226
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@lapajaraenbici.com"
+    ] ;
+    schema:sameAs <https://lapajara.coopcycle.org>,
+        <https://www.facebook.com/lapajaraenbici/>,
+        <https://lapajaraenbici.com/>.
+
+<https://www.larouelibre.org> a schema:Service ;
+    schema:name "La roue libre" ;
+    schema:url <https://www.larouelibre.org> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Montréal" ;
+        schema:addressCountry "ca"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 45.50906 ;
+        schema:longitude -73.55336
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@larouelibre.org"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/La-roue-libre-198894610933757/>,
+        <https://www.instagram.com/larouelibremtl/>,
+        <https://www.larouelibre.org>.
+
+<http://www.cocottelivraison.fr/> a schema:Service ;
+    schema:name "La Cocotte" ;
+    schema:url <http://www.cocottelivraison.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Toulon" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 43.125191 ;
+        schema:longitude 5.93104
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "la.cocotte.toulon@gmail.com"
+    ] ;
+    schema:sameAs <https://la-cocotte.coopcycle.org>,
+        <http://www.cocottelivraison.fr/>.
+
+<null> a schema:Service ;
+    schema:name "Les Coursiers Rennais" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Rennes" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.111778 ;
+        schema:longitude -1.68026
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "lescoursiersrennais.marketplace@gmail.com"
+    ] ;
+    schema:sameAs <https://lcr.coopcycle.org>,
+        <https://www.facebook.com/lescoursiersrennais/>,
+        <https://www.instagram.com/lescoursiersrennais/>.
+
+<http://www.coco-coop.org/> a schema:Service ;
+    schema:name "COCO Collectif de Coursiers Orléanais " ;
+    schema:url <http://www.coco-coop.org/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Orléans" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.9000569 ;
+        schema:longitude 1.9061124
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@coco-coop.org"
+    ] ;
+    schema:sameAs <https://le-rayon-vert.coopcycle.org>,
+        <https://www.facebook.com/COLLECTIFCOURSIERSORLEANAIS>,
+        <https://www.instagram.com/_coco_coop_/>,
+        <http://www.coco-coop.org/>.
+
+<http://coursiersbordelais.fr> a schema:Service ;
+    schema:name "Les Coursiers Bordelais" ;
+    schema:url <http://coursiersbordelais.fr> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Bordeaux" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 44.8638282 ;
+        schema:longitude -0.6561812
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "coursiersbordelais@gmail.com"
+    ] ;
+    schema:sameAs <https://coursiersbordelais.coopcycle.org>,
+        <https://www.facebook.com/coursiersbordelais/>,
+        <http://coursiersbordelais.fr>.
+
+<http://lescoursiersbrestois.bzh/> a schema:Service ;
+    schema:name "Les Coursiers Brestois" ;
+    schema:url <http://lescoursiersbrestois.bzh/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Brest" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.390392 ;
+        schema:longitude -4.486076
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "lescoursiersbrestois@gmail.com"
+    ] ;
+    schema:sameAs <https://lescoursiersbrestois.coopcycle.org>,
+        <https://www.facebook.com/lescoursiersbrestois/>,
+        <http://lescoursiersbrestois.bzh/>.
+
+<null> a schema:Service ;
+    schema:name "Les coursiers Metz" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Metz" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 49.1172743 ;
+        schema:longitude 6.1749915
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@lescoursiersdemetz.fr"
+    ] ;
+    schema:sameAs <https://coursiers-metz.coopcycle.org>,
+        <https://www.facebook.com/lescoursiersdemetz/>.
+
+<http://coursiers-montpellier.fr> a schema:Service ;
+    schema:name "Les Coursiers Montpelliérains" ;
+    schema:url <http://coursiers-montpellier.fr> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Montpellier" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 43.6100006 ;
+        schema:longitude 3.8041213
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@coursiers-montpellier.fr"
+    ] ;
+    schema:sameAs <https://coursiersmontpellier.coopcycle.org>,
+        <https://www.facebook.com/Coursiersmtp/>,
+        <http://coursiers-montpellier.fr>.
+
+<https://lescoursiersnanceiens.fr/> a schema:Service ;
+    schema:name "Les Coursiers Nancéiens" ;
+    schema:url <https://lescoursiersnanceiens.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Nancy - Les Coursiers Nancéiens" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.6885 ;
+        schema:longitude 6.1727
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@lescoursiersnanceiens.fr"
+    ] ;
+    schema:sameAs <https://lescoursiersnanceiens.coopcycle.org>,
+        <https://www.facebook.com/105806728007985/>,
+        <https://lescoursiersnanceiens.fr/>.
+
+<http://lescoursiersnantais.fr/> a schema:Service ;
+    schema:name "Les Coursiers Nantais" ;
+    schema:url <http://lescoursiersnantais.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Nantes - Les Coursiers Nantais" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.204185 ;
+        schema:longitude -1.5484234
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@lescoursiersnantais.fr"
+    ] ;
+    schema:sameAs <https://lescoursiersnantais.coopcycle.org>,
+        <https://www.facebook.com/lescoursiersnantais/>,
+        <http://lescoursiersnantais.fr/>.
+
+<https://www.coursiers-stephanois.fr/> a schema:Service ;
+    schema:name "Les Coursiers Stéphanois" ;
+    schema:url <https://www.coursiers-stephanois.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Saint-Étienne" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 45.4368055 ;
+        schema:longitude 4.3866217
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@coursiers-stephanois.fr"
+    ] ;
+    schema:sameAs <https://coursiers-stephanois.coopcycle.org>,
+        <https://www.facebook.com/coursiersstephanois>,
+        <https://www.coursiers-stephanois.fr/>.
+
+<https://breizh-velo.fr/> a schema:Service ;
+    schema:name "Breizh Vélo - Quimper" ;
+    schema:url <https://breizh-velo.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Quimper" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.995949 ;
+        schema:longitude -4.09992
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "coursierbzhquimper@breizhvelo.fr"
+    ] ;
+    schema:sameAs <https://lescoursiersbzh.coopcycle.org>,
+        <https://www.facebook.com/breizhvelo.fr>,
+        <https://breizh-velo.fr/>.
+
+<https://libelubike.com.mx> a schema:Service ;
+    schema:name "Libelubike" ;
+    schema:url <https://libelubike.com.mx> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Puerto de Veracruz" ;
+        schema:addressCountry "mx"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 19.1960638 ;
+        schema:longitude -96.144868
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contacto@libelubike.com.mx"
+    ] ;
+    schema:sameAs <https://libelubike.coopcycle.org>,
+        <https://www.facebook.com/Libelubikemx/>,
+        <https://www.instagram.com/libelubikemx>,
+        <https://libelubike.com.mx>.
+
+<http://lille.bike> a schema:Service ;
+    schema:name "Lille.bike" ;
+    schema:url <http://lille.bike> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Lille / Roubaix" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 50.6311554 ;
+        schema:longitude 2.9771204
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@lille.bike"
+    ] ;
+    schema:sameAs <https://lille.coopcycle.org>,
+        <https://www.facebook.com/lillepointbike/>,
+        <http://lille.bike>.
+
+<https://www.wings.coop/> a schema:Service ;
+    schema:name "Wings: ethical food delivery" ;
+    schema:url <https://www.wings.coop/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "London" ;
+        schema:addressCountry "gb"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 51.564643 ;
+        schema:longitude -0.105872
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "rich@doorstepcollective.org"
+    ] ;
+    schema:sameAs <https://london.coopcycle.org>,
+        <https://www.wings.coop/>.
+
+<https://www.mensakas.com/> a schema:Service ;
+    schema:name "Mensakas" ;
+    schema:url <https://www.mensakas.com/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Barcelona" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 41.385063 ;
+        schema:longitude 2.173404
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@mensakas.com"
+    ] ;
+    schema:sameAs <https://mensakas.coopcycle.org>,
+        <https://www.facebook.com/Mensakas/>,
+        <https://www.mensakas.com/>.
+
+<https://molenbike.be> a schema:Service ;
+    schema:name "Molenbike" ;
+    schema:url <https://molenbike.be> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Molenbeek, Brussels" ;
+        schema:addressCountry "be"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 50.8576808 ;
+        schema:longitude 4.2982454
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@molenbike.be"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/Molenbike.be/>,
+        <https://molenbike.be>.
+
+<https://naofood.fr/> a schema:Service ;
+    schema:name "Naofood" ;
+    schema:url <https://naofood.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Nantes - Naofood" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.206472 ;
+        schema:longitude -1.564297
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <https://naofood.coopcycle.org>,
+        <https://www.facebook.com/nao.food>,
+        <https://www.instagram.com/nao.food/>,
+        <https://naofood.fr/>.
+
+<https://www.narvelos.fr/> a schema:Service ;
+    schema:name "Narvélos" ;
+    schema:url <https://www.narvelos.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Montreuil" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.858311 ;
+        schema:longitude 2.4369
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <null>,
+        <https://facebook.com/lesnarvelos>,
+        <https://instagram.com/lesnarvelos>,
+        <https://www.narvelos.fr/>.
+
+<null> a schema:Service ;
+    schema:name "KroKoop" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Nîmes" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 43.836699 ;
+        schema:longitude 4.360054
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "krokoop.livraison@gmail.com"
+    ] ;
+    schema:sameAs <https://krokoop.coopcycle.org>.
+
+<null> a schema:Service ;
+    schema:name "Les Coursiers Niortais" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Niort" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 46.32386 ;
+        schema:longitude -0.45758
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "lescoursiersniortais@gmail.com"
+    ] ;
+    schema:sameAs <https://niort.coopcycle.org>.
+
+<https://www.nbdcykelbud.nu/> a schema:Service ;
+    schema:name "No bad days" ;
+    schema:url <https://www.nbdcykelbud.nu/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Aarhus" ;
+        schema:addressCountry "dk"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 56.145375 ;
+        schema:longitude 10.204885
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "hej@nbdcykelbud.nu"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.instagram.com/nbdcykelbud/>,
+        <https://www.nbdcykelbud.nu/>.
+
+<null> a schema:Service ;
+    schema:name "Orléans Cycloposteurs" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Orléans" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.9040718 ;
+        schema:longitude 1.8858347
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "lescycloposteurs@mailo.com"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/lescycloposteurs/>.
+
+<https://porlachita.cl/> a schema:Service ;
+    schema:name "Por La Chita" ;
+    schema:url <https://porlachita.cl/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Concepción" ;
+        schema:addressCountry "cl"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude -36.8234934 ;
+        schema:longitude -73.046342
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contacto@porlachita.cl"
+    ] ;
+    schema:sameAs <https://porlachita.coopcycle.org>,
+        <https://porlachita.cl/>.
+
+<https://rayon9.be> a schema:Service ;
+    schema:name "RAYON9" ;
+    schema:url <https://rayon9.be> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Liège" ;
+        schema:addressCountry "be"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 50.624728 ;
+        schema:longitude 5.5290501
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@rayon9.be"
+    ] ;
+    schema:sameAs <https://rayon9.coopcycle.org>,
+        <https://www.facebook.com/rayon9coop>,
+        <https://rayon9.be>.
+
+<https://www.lescyclopes.fr/> a schema:Service ;
+    schema:name "Les Cyclopes" ;
+    schema:url <https://www.lescyclopes.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Epinay" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.950001 ;
+        schema:longitude 2.30833
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@lescyclopes.fr"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/LesCyclopes93>,
+        <https://www.lescyclopes.fr/>.
+
+<https://www.robinfoodfirenze.it/> a schema:Service ;
+    schema:name "Robin Food" ;
+    schema:url <https://www.robinfoodfirenze.it/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Firenze" ;
+        schema:addressCountry "it"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 43.7752 ;
+        schema:longitude 11.254612
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@robinfoodfirenze.it"
+    ] ;
+    schema:sameAs <https://robinfood.coopcycle.org>,
+        <https://www.facebook.com/robinfooddelivery-108509294750638/>,
+        <https://www.instagram.com/robinfood.delivery/?hl=fr>,
+        <https://www.robinfoodfirenze.it/>.
+
+<https://sicklo.fr/> a schema:Service ;
+    schema:name "S!cklo" ;
+    schema:url <https://sicklo.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Grenoble" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 45.196241 ;
+        schema:longitude 5.730347
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@sicklo.fr"
+    ] ;
+    schema:sameAs <https://sicklo.coopcycle.org>,
+        <https://sicklo.fr/>.
+
+<http://lasarria.cat/> a schema:Service ;
+    schema:name "La Sàrria" ;
+    schema:url <http://lasarria.cat/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Sabadell" ;
+        schema:addressCountry "es"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 41.5477076 ;
+        schema:longitude 2.1079001
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "davidestop@gmail.com"
+    ] ;
+    schema:sameAs <null>,
+        <https://instagram.com/lasarriacoop/>,
+        <http://lasarria.cat/>.
+
+<https://www.lescoliporteursnz.fr/> a schema:Service ;
+    schema:name "Les Coliporteurs Nazairiens" ;
+    schema:url <https://www.lescoliporteursnz.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Saint Nazaire" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.2734979 ;
+        schema:longitude -2.213848
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "contact@lescoliporteursnz.fr"
+    ] ;
+    schema:sameAs <https://lescoliporteursnz.coopcycle.org>,
+        <https://www.facebook.com/lescoliporteursnz/>,
+        <https://www.instagram.com/lescoliporteursnz/?hl=fr>,
+        <https://www.lescoliporteursnz.fr/>.
+
+<null> a schema:Service ;
+    schema:name "Samo" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Saint-Maur-des-Fossés" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 48.803678 ;
+        schema:longitude 2.4853294
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "samo.contact.sm@gmail.com"
+    ] ;
+    schema:sameAs <https://samo.coopcycle.org>.
+
+<https://shift.coop/> a schema:Service ;
+    schema:name "Shift Delivery Co-op" ;
+    schema:url <https://shift.coop/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Vancouver" ;
+        schema:addressCountry "ca"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 49.28273 ;
+        schema:longitude -123.120735
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@shiftdelivery.ca"
+    ] ;
+    schema:sameAs <https://shift.coopcycle.org>,
+        <https://www.facebook.com/ShiftDelivery/>,
+        <https://shift.coop/>.
+
+<null> a schema:Service ;
+    schema:name "SIRApps Unión Mexicana de Bicimensajeros por Aplicación" ;
+    schema:url <null> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Ciudad de México - SIRApps" ;
+        schema:addressCountry "mx"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 19.43268 ;
+        schema:longitude -99.13421
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "sirapps.unionrepartidores@gmail.com"
+    ] ;
+    schema:sameAs <https://sirapps-cdmx.coopcycle.org>,
+        <https://www.facebook.com/sirapps.unionrepartidores/>.
+
+<https://www.tigcdmx.com/> a schema:Service ;
+    schema:name "TIG Bicimensajería" ;
+    schema:url <https://www.tigcdmx.com/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Ciudad de México - TIG" ;
+        schema:addressCountry "mx"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 19.432608 ;
+        schema:longitude -99.133209
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@tig.mx"
+    ] ;
+    schema:sameAs <https://tig.coopcycle.org>,
+        <https://www.facebook.com/tig.mx>,
+        <https://www.tigcdmx.com/>.
+
+<https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I> a schema:Service ;
+    schema:name "TLOK" ;
+    schema:url <https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Ciudad de México - Tlok" ;
+        schema:addressCountry "mx"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 19.419791 ;
+        schema:longitude -99.111668
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "cotizaciones@tlok.info"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/TlokMess/>,
+        <https://www.instagram.com/tlok.mess/?hl=fr>,
+        <https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I>.
+
+<https://www.toursnmessengers.fr/> a schema:Service ;
+    schema:name "Tours N Messengers" ;
+    schema:url <https://www.toursnmessengers.fr/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Tours" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 47.383333 ;
+        schema:longitude 0.683333
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "null"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/toursnmessengers>,
+        <https://www.toursnmessengers.fr/>.
+
+<http://www.toutenvelo.fr/toutenvelo-grenoble> a schema:Service ;
+    schema:name "Toutenvélo Grenoble" ;
+    schema:url <http://www.toutenvelo.fr/toutenvelo-grenoble> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Grenoble" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 45.1951843 ;
+        schema:longitude 5.711916
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "grenoble@toutenvelo.fr"
+    ] ;
+    schema:sameAs <null>,
+        <http://www.toutenvelo.fr/toutenvelo-grenoble>.
+
+<http://www.toutenvelo.fr/toutenvelo-marseille> a schema:Service ;
+    schema:name "Toutenvélo Marseille" ;
+    schema:url <http://www.toutenvelo.fr/toutenvelo-marseille> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Marseille" ;
+        schema:addressCountry "fr"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 43.296482 ;
+        schema:longitude 5.36978
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "marseille@toutenvelo.fr"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.facebook.com/Toutenv%C3%A9lo-Marseille-336736433711774/>,
+        <http://www.toutenvelo.fr/toutenvelo-marseille>.
+
+<https://tricargo.de/> a schema:Service ;
+    schema:name "Tricargo" ;
+    schema:url <https://tricargo.de/> ;
+    schema:address [
+        a schema:PostalAddress ;
+        schema:addressLocality "Hambourg" ;
+        schema:addressCountry "de"
+    ] ;
+    schema:geo [
+        a schema:GeoCoordinates ;
+        schema:latitude 53.5586526 ;
+        schema:longitude 9.6476381
+    ] ;
+    schema:contactPoint [
+        a schema:ContactPoint ;
+        schema:email "info@tricargo.de"
+    ] ;
+    schema:sameAs <null>,
+        <https://www.instagram.com/hh_tricargo.de/>,
+        <https://tricargo.de/>.

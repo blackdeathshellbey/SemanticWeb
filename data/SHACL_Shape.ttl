@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+
+schema:CoopCycleMember
+    a sh:NodeShape ;
+    sh:property [
+          sh:path schema:url ;
+          sh:maxCount 1 ;
+          sh:datatype xsd:anyURI ;
+      ] ;
+    sh:property [
+          sh:path schema:name ;
+          sh:maxCount 1 ;
+          sh:datatype xsd:string ;
+      ] ;
+    sh:property [
+          sh:path schema:address ;
+          sh:maxCount 1 ;
+          sh:node schema:CoopCyclePostalAddress ;
+      ] .
+
+schema:CoopCyclePostalAddress
+    a sh:NodeShape ;
+    sh:property [
+          sh:path schema:streetAddress ;
+          sh:maxCount 1 ;
+          sh:datatype xsd:string ;
+      ] ;
+    sh:property [
+          sh:path schema:postalCode ;
+          sh:maxCount 1 ;
+          sh:datatype xsd:string ;
+          sh:minLength 5 ;
+          sh:maxLength 5 ;
+      ] ;
+    sh:property [
+          sh:path schema:city ;
+          sh:maxCount 1 ;
+          sh:datatype xsd:string ;
+      ] .

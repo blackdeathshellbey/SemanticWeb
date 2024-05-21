@@ -1,0 +1,4 @@
+<http://schema.org/erfan1564580162>
+        <http://schema.org/City>       "Saint_Etienne";
+        <http://schema.org/latitude>   "4.254";
+        <http://schema.org/longitude>  "45.53" .
