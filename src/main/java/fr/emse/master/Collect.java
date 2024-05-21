@@ -169,8 +169,8 @@ class Collect {
             this.entryPointInLanguage = null;
         }
     }
-
-    public static String apiKey = "AIzaSyBESg6MM27VpqjawT3PADRX3S-YH9i_nUs";
+/* You can add your Google API key here.*/
+    public static String apiKey = "";
 
     public static void rdfCollector() throws Exception {
 
